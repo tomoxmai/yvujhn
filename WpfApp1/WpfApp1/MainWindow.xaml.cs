@@ -24,5 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void TxtEditor_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

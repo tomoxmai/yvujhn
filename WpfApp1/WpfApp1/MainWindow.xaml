@@ -28,6 +28,11 @@
             <StatusBarItem Grid.Column="2">
                 <TextBlock Text="Juancho.doc"/>
             </StatusBarItem>
+            <Separator Grid.Column="3"/>
+            <StatusBarItem Grid.Column="4">
+                <ProgressBar x:Name="Pblleno" Value="50" Width="90" Height="16"/>
+            </StatusBarItem>
         </StatusBar>
+        <TextBox AcceptsReturn="True" x:Name="txtEditor" SelectionChanged="TxtEditor_SelectionChanged" />
     </DockPanel>
 </Window>
